@@ -1,0 +1,24 @@
+{
+  "name": "docker-aws-tutorial-sample-app",
+  "version": "1.0.0",
+  "description": "Code for my tutorial on how to dockerize a node app and deploy it on AWS.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayknyn/docker-aws-tutorial-sample-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayknyn/docker-aws-tutorial-sample-app/issues"
+  },
+  "homepage": "https://github.com/jayknyn/docker-aws-tutorial-sample-app#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
